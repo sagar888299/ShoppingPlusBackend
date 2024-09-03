@@ -11,6 +11,7 @@ import com.ShoppingPlusBackend.ShoppingPlusBackend.model.Customer;
 
 import java.util.List;
 
+@CrossOrigin(origins = "https://shopping-plus-frontend.vercel.app")
 @RestController
 @RequestMapping("/api/cart")
 public class CartController {

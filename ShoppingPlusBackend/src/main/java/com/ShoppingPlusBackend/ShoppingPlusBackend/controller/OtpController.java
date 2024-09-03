@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://shopping-plus-frontend.vercel.app")
 @RestController
 @RequestMapping("/api/otp")
 public class OtpController {

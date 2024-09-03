@@ -9,7 +9,7 @@ import com.ShoppingPlusBackend.ShoppingPlusBackend.model.Customer;
 
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://shopping-plus-frontend.vercel.app")
 @RestController
 @RequestMapping("/api/customers")
 public class customerController {
